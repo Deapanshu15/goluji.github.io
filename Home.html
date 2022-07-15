@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to goluji</title>
+    <link rel="stylesheet" href="home1.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.mim.css">
+    
+</head>
+<body>
+    <header>
+        <div class="container-logo">
+            <span class="word" id="w1">G</span>
+            <span class="word" id="w2">o</span>
+            <span class="word" id="w3">l</span>
+            <span class="word" id="w4">u</span>
+            <span class="word" id="w5">J</span>
+            <span class="word" id="w6">i</span>
+        </div>
+
+        <div class="head1">
+            <a href="signinpg.html"><button id="b1-signin" >Signup</button></a>
+            <a href="loginpg1.html"><button id="b2-login">Login</button></a>
+       </div>
+       <nav class="navbar">
+           <a class="link" href="Home.html">HOME</a>                                              
+           <a class="link" href="#course">COURSE</a>
+           <a class="link" href="#tool">TOOLS</a>
+           <a class="link" href="calculator.html">CALCULATOR</a>
+           <a class="link" href="oe.html">CODE EDITOR</a>
+           <a  class="link" href="binarycal.html">BINARY CALCULATOR</a>
+           
+       </nav>
+       <!-- corosel -->
+      
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="gg1.PNG" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+              <img src="cimg1.png" style="width:100%  ">
+            </div>
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            
+            <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 3000); // Change image every 2 seconds
+            }
+            </script>
+            <!-- corousel -->
+              <div class="container-course">
+            </div>
+            <div class="slideshow">
+                <h1 id="cc">Courses</h1>
+                    <div class="course" id="course">
+                        <a href="https://www.w3schools.com/where_to_start.asp"><img class="corse1" src="wim.PNG" alt=""></a>
+                        <a href="https://www.w3schools.blog/computer-fundamentals-tutorial"><img  class="corse3" src="wim2.png" alt=""></a>
+                       <a href="https://www.w3schools.com/python/python_intro.asp"> <img  class="corse2"src="wim3.png" alt=""></a>
+                    </div>
+                    <h1 id="cc">Tools</h1>
+                    <div class="course" id="tool">
+                        <a href="calculator.html"><img class="corse1" src="Capture.PNG" alt=""></a>
+                        <a href="oe.html"></a><img  class="corse3" src="capture2.png" alt="">
+                        <a href="binarycal.html"><img  class="corse2"src="capture3.png" alt=""></a>
+                    </div>
+        <footer class="foot" >
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Tools</h4>
+                        <ul>
+                            <li><a href="calculator.html">Calculator</a></li>
+                            <li><a href="binarycal.html">Binary calculator</a></li>
+                            <li><a href="oe.html">Code editor</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="footer-col">
+                        <h4>Courses</h4>
+                        <ul>
+                            <li><a href="#">Basic Computer</a></li>
+                            <li><a href="#">python</a></li>
+                            <li><a href="#">web development</a></li>
+                            <li><a href="#">computer science</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contacts</h4>
+                        <div class="social-links">
+                           <li> <a href="#">Ph.8920844922</a></li>
+                           <li> <a href="#">Email.sdchaurasia@gmail.com</a></li>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+   
+      
+    </body>
+    </html>
+    
+       
+    
+ 
+      

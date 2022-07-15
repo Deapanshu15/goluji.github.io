@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2? family=muli&display=Swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    padding:0;
+    margin: 0;
+    height: 25%;
+    width: 100%;
+
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #1f1c32;
+    color: rgb(2, 4, 17);
+    flex-direction: column;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   overflow: hidden;
+   margin: 0;
+}
+.container-log{
+    background-color:rgba(28, 189, 162, 0.753);
+    padding: 20px 40px;
+    border-radius: 5px;
+    box-shadow: #07060c;
+}
+.container-log h1{
+    text-align: none;
+    color: blueviolet;
+}
+.btn1{
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background: lightblue;
+    padding: 15px;
+    font-family: inherit;
+    font-size: 20px;
+    border: 0;
+    border-radius: 7px;
+    margin-top: 5px;
+}
+.btn1:focus{
+    outline:0;
+}
+.btn1:active{
+    transform: scale(0.98);
+}
+.text{
+    margin-top: 30px;
+}
+.form-control{
+    position :relative;
+    margin:10px 0 20px;
+    width: 330px;
+}

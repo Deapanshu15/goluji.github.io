@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #1f1c32 ;
+  }
+
+  h1{
+    color: #f4f4f9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+  }
+  textarea {
+    width: 32%;
+    float: top;
+    min-height: 250px;
+    overflow: scroll;
+    margin: auto;
+    display: inline-block;
+    background: #f4f4f9;
+    outline: none;
+    font-family: Courier, sans-serif;
+    font-size: 14px;
+    background-color: aquamarine;
+  }
+  
+  iframe {
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    height: 35em;
+  }
+  
